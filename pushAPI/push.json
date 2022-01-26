@@ -1,0 +1,13 @@
+curl -v -X POST https://fcm.googleapis.com/fcm/send \
+-H 'Content-Type: application/json' \
+-H 'Authorization: key=Server Key ที่ Copy เก็บไว' \
+-d '{
+    "to" : "token ที่ได้จาก ฺBrowser ในขั้นตอนก่อนหน้า",
+    "notification": {
+        "title": "Background Message Title",
+        "body": "Background message body",
+        "image":"Image Url",
+        "icon":"Image Url",
+        "click_action" : "Web Url"
+    }
+}'
