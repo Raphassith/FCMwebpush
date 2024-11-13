@@ -1,0 +1,10 @@
+{
+    "to": "USER_FCM_TOKEN",
+    "notification": {
+        "title": "Hello from Firebase!",
+        "body": "This is a test notification from FCM via Postman"
+    },
+    "data": {
+        "additionalData": "Some extra data here"
+    }
+}

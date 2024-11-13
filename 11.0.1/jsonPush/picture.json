@@ -1,0 +1,12 @@
+{
+    "to": "USER_FCM_TOKEN",
+    "notification": {
+        "title": "Hello from Firebase!",
+        "body": "This is a test notification with an image and custom icon",
+        "image": "https://your-domain.com/path/to/image.jpg",
+        "icon": "https://your-domain.com/path/to/icon.png"
+    },
+    "data": {
+        "additionalData": "Some extra data here"
+    }
+}
